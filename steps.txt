@@ -1,11 +1,12 @@
-Set up:
+1: Set up:
 
-	Create in folder Web102 - index.htm and style.css
-	In index.htm, add doctype (! then tab)
-	In <head> section, link style.css to html document
+	1.1: Create in folder Web102 - index.htm and style.css
+	1.2: In index.htm, add doctype (! then tab)
+	1.3: In <head> section, link style.css to html document
 
-Build HTML:
-	In <body>, add 
+2: Build HTML:
+
+	2.1: In <body>, add 
 
 		ul>li*5>a>lorem1
 
@@ -13,24 +14,26 @@ Build HTML:
 		p*2>lorem30
 
 		h1>lorem5
-		p*2>lorem30
+		p>lorem30
+
+		h1>lorem5
+		p>lorem30
 
 		h1>lorem5
 		p*2>lorem30
 
-		h1>lorem5
-		p*2>lorem30
+	2.2: In some paragraphs, add a few links
+		a>lorem1
 
-	In some paragraphs, add 1 or 2 links a>lorem1
-
-Styling:
+3: Styling:
 	
-	Add css reset to remove gaps and bullets
-	Set font face
-	Style headings and paragraphs
-	Style the links inside paragraphs (use class selector)
-	Style ul to become a menu
-	Add <div> tags to your structure to create layout
+	3.1: Add css reset to remove gaps and bullets
+	3.2: Set font face - I recommend Montserrat
+	3.3: Style headings and paragraphs
+	3.4: Style the links inside paragraphs (use a class selector)
+	3.5: Style ul to become a menu
+	3.6: Add <div> tags to your structure to create layout
+	3.7: Adjust spacing, gaps, and gutters for a balanced design
 
 
 

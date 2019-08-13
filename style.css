@@ -6,4 +6,58 @@
 
 body{
 	font-family: 'Montserrat', sans-serif;
+	background-image: url(background.png);
+	background-color: #cccccc;
+	background-repeat: repeat-x;
 }
+
+h1{
+	margin-top:20px;
+	color:hotpink;
+}
+p{
+	margin-top:20px;
+	line-height: 150%;
+}
+
+.nice-link{
+	text-decoration: none;
+	color:hotpink;
+}
+.container{
+	width: 1000px;
+	margin:100px auto 0 auto;
+	display: flex;
+	background-color:white;
+	border-radius: 5px;
+	padding:20px;
+}
+
+ul{
+	width: 160px;
+	margin-right:40px;
+}
+
+ul a{
+	display: block;
+	text-decoration: none;
+	padding:10px;
+	border-bottom: 1px #ccc dotted;
+	color:hotpink;
+	font-weight: bold;
+	transition: all ease 0.3s;
+}
+
+ul a:hover{
+	color:white;
+	background-color: hotpink;
+}
+
+.content1{
+	width: 350px;
+	margin-right:40px;
+}
+.content2{
+	width: 350px;	
+}
+
